@@ -1,0 +1,46 @@
+.mobile-menu {
+  position: absolute;
+  background: white;
+  width: 200px;
+  padding: 1rem 2rem;
+  top: 6.5rem;
+  right: 0rem;
+  transform-style: preserve-3d;
+  transition: 0.3s ease;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  z-index: 20;
+  border-radius: 8px;
+  /* z-index: 20; */
+  /* display: none; */
+}
+
+.lower {
+  /* top: 10rem; */
+  position: absolute;
+}
+
+.mobile-item {
+  margin: 1rem 0;
+}
+
+.mobile-link {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.mobile-link:hover {
+  font-weight: 700;
+}
+
+.show-mobile {
+  transform: rotateY(0deg);
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 650px) {
+  .mobile-menu {
+    /* display: block; */
+  }
+}

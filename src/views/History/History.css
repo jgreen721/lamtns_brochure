@@ -102,7 +102,7 @@
   width: 200px;
 }
 .mobile-carousel {
-  transform: translateY(20rem);
+  transform: translateX(100rem);
   transition: 0.2s 1s ease;
 }
 
@@ -175,7 +175,7 @@
   }
 
   .mobile-carousel {
-    transform: translateY(0rem);
+    transform: translateX(0rem);
     /* border: 2px solid red; */
   }
 }

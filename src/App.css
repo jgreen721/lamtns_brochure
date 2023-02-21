@@ -31,7 +31,7 @@ li {
   margin: 0 auto;
   height: 100vh;
   /* border: 2px solid red; */
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: var(--mainFont);
   opacity: 0;
   transition: 1s ease;
